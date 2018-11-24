@@ -1,5 +1,6 @@
 1. npm install ripple-lib
 2. node mul-sign.js
+
 if you see that,You are successful! 
 ```shell
 ➜  ripple-mul-sign git:(master) ✗ node mul-sign.js
