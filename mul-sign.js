@@ -6,7 +6,7 @@ const api = new RippleAPI({
 });
 
 mul_address_info = JSON.parse(fs.readFileSync('mul-address.json').toString());
-owners_info = JSON.parse(fs.readFileSync('owners.json').toString()).pubkeys;
+owners_info = JSON.parse(fs.readFileSync('owners.json').toString()).address;
 const mul_addtess = mul_address_info.address;
 const mul_addtess_privkey = mul_address_info.privkey;
 const signer1 = owners_info[0];

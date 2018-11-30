@@ -1,5 +1,6 @@
 1. npm install ripple-lib
-2. node mul-sign.js
+2. replace address and privkey in owners.json or mul-address.json
+3. node mul-sign.js
 
 if you see that,You are successful! 
 ```shell
